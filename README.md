@@ -160,7 +160,7 @@ int main() {
 
 ## 目录结构
 ```
-├── AI-assisted analysis
+├── assisted analysis
 │   ├── __pycache__
 │   │   ├── interactive_rag.cpython-310.pyc
 │   │   ├── local_vector_rag_analyzer.cpython-310.pyc
@@ -254,7 +254,7 @@ int main() {
 
 ## AI 辅助分析
 
-`AI-assisted analysis/` 目录包含可选的 Python 工具集，使用 **阿里云百炼（DashScope）** 平台的 `qwen-plus` 模型进行网络日志的智能分析，并基于 FAISS 向量库实现 RAG（检索增强生成）。
+`assisted analysis/` 目录包含可选的 Python 工具集，使用 **阿里云百炼（DashScope）** 平台的 `qwen-plus` 模型进行网络日志的智能分析，并基于 FAISS 向量库实现 RAG（检索增强生成）。
 
 **提示：** 调用阿里百炼 API 是 **付费服务**。`qwen-plus` 模型按 token 计费（输入约 ¥2/百万 tokens，输出约 ¥6/百万 tokens，价格可能浮动）。需要自行配置 API 密钥才能使用。如果不配置 API 密钥，该部分功能不会产生任何费用。
 
